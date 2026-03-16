@@ -63,7 +63,13 @@ class RoboticsEngineer:
 ![Jetson Nano](https://img.shields.io/badge/Jetson%20Nano-NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![LiDAR](https://img.shields.io/badge/LiDAR-TF--Luna%20%7C%20YD--X2-00AAFF?style=for-the-badge)
-![PCB](https://img.shields.io/badge/PCB%20Design-KiCad-1DB954?style=for-the-badge)
+![PCB](https://img.shields.io/badge/PCB%20Design-1DB954?style=for-the-badge)
+
+### 🖥️ Tools
+![Linux](https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Fusion360](https://img.shields.io/badge/Fusion%20360-CAD-FF6D00?style=for-the-badge&logo=autodesk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
@@ -72,19 +78,24 @@ class RoboticsEngineer:
 ### 🤖 [MechaPrime — Autonomous Mobile Robot](https://github.com/robovision2210/mechaprime_ws)
 > Differential drive AMR with QR-code guided maze navigation, LiDAR obstacle avoidance & IMU-based turning
 
-![MechaPrime](https://raw.githubusercontent.com/robovision2210/mechaprime_ws/main/media/maze_topview.png)
+| | |
+|--|--|
+| ![MechaPrime1](https://raw.githubusercontent.com/robovision2210/mechaprime_ws/main/media/maze_topview.png) | ![MechaPrime2](https://raw.githubusercontent.com/robovision2210/mechaprime_ws/main/media/maze_solver_terminal.png) |
 
 - ROS2 Humble + Ignition Gazebo 6 | ros2_control + DiffDriveController + twist_mux
 - Autonomous maze state machine: FORWARD → TURNING → STOPPED
 - 360° LiDAR + IMU + Camera sensor fusion
+- QR code detection using OpenCV
 
 ---
 
 ### 🦿 Quadruped Robot — Modular Legged Platform
-
-<img src="media/quadruped.jpg" width="400"/>
-
 > 4-legged robotic platform with 3D-printed chassis, servo actuators, ROS2 + Gazebo gait simulation
+
+| | |
+|--|--|
+| ![Quadruped1](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/quadruped_1.jpg) | ![Quadruped2](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/quadruped_2.jpg) |
+| ![Quadruped3](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/quadruped_3.jpg) | ![Quadruped4](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/quadruped_4.jpg) |
 
 - IMU-based closed-loop balance correction
 - URDF + joint configuration for HIL testing
@@ -93,65 +104,55 @@ class RoboticsEngineer:
 ---
 
 ### 🌙 Night Vision Spy Bot 1 — Low-Light Reconnaissance UGV
-
-<img src="media/night_vision_1.jpg" width="400"/>
-
 > Semi-autonomous UGV with AI camera + TF-Luna LiDAR, ROS digital twin, dual-mode control
+
+| | |
+|--|--|
+| ![NVSB1_1](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/night_vision_bot1_1.png) | ![NVSB1_2](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/night_vision_bot1_2.jpg) |
 
 - Real-time obstacle avoidance + RTSP streaming
 - FlySky transmitter teleoperation + autonomous navigation
+- AMB82 AI camera + TF-Luna LiDAR integration
 
 ---
 
-### 🕵️ Night Vision Spy Bot 2
+### 🕵️ Night Vision Spy Bot 2 — Enhanced Recon UGV
+> Upgraded version with improved low-light perception and autonomous capabilities
 
-<img src="media/night_vision_2.jpg" width="400"/>
-
-> Enhanced version with improved low-light perception and autonomous navigation capabilities
+| | |
+|--|--|
+| ![NVSB2_1](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/night_vision_bot2_1.jpg) | ![NVSB2_2](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/night_vision_bot2_2.jpg) |
 
 ---
 
 ### 🏙️ AI-Driven Smart City Infrastructure 🏆
-
-<img src="media/smart_city.jpg" width="400"/>
-
 > Edge-AI traffic management + IoT smart parking — **1st Runner-Up, National Hackathon**
+
+| | |
+|--|--|
+| ![SCD1](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/smart_city_1.jpg) | ![SCD2](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/smart_city_2.jpg) |
 
 - ESP32-CAM ML-based vehicle density detection + emergency routing
 - RFID + IR smart parking with cloud database
-- Real-time hardware-to-cloud communication
+- **🏆 1st Runner-Up — National 24-Hour Hackathon (Unplugged 2.0)**
 
 ---
 
-### 🧲 Magnetic Wall-Climbing Robot
+### 🖐️ Vision Sync — 3D Hand Tracking & Digital Twin
+> MediaPipe-based real-time hand tracking controlling a Unity 3D digital twin
 
-<img src="media/wall_climbing.jpg" width="400"/>
+| | |
+|--|--|
+| ![PU1](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/vision_sync_1.jpg) | ![PU2](https://raw.githubusercontent.com/robovision2210/robovision2210/main/media/vision_sync_2.jpg) |
 
-> Custom electromagnetic adhesion system for vertical surface traversal
-
----
-
-### 🔌 Smart Extension Box
-
-<img src="media/smart_extension.png" width="400"/>
-
-> IoT-enabled smart extension box with remote control and power monitoring
-
----
-
-### 🖐️ Vision Sync — Python & Unity Based Project
-
-<img src="media/python_unity.jpg" width="400"/>
-
-> MediaPipe-based hand tracking controlling a 3D digital twin in Unity in real-time
+- Real-time 21-point hand landmark detection via MediaPipe
+- UDP communication bridge between Python and Unity 3D
+- Gesture-controlled digital twin interface
 
 ---
 
 ### 🌍 World Robot Olympiad (WRO) — National Participant
-
-<img src="media/wro.jpg" width="400"/>
-
-> Represented advanced robotics categories at WRO India national competition
+> Represented advanced robotics categories at WRO India national competition with custom Fusion 360 designed robot
 
 ---
 
@@ -167,12 +168,14 @@ class RoboticsEngineer:
 
 ## 📜 Certifications
 
-| | | |
-|--|--|--|
-| <img src="media/cert_iot_iit.jpg" width="250"/> | <img src="media/cert_matlab.jpg" width="250"/> | <img src="media/cert_unplugged.jpg" width="250"/> |
-| Advanced IoT — IIT Hyderabad | MATLAB — MathWorks | Unplugged 2.0 Hackathon |
-| <img src="media/cert_hackathon.jpg" width="250"/> | <img src="media/cert_coprotect.jpg" width="250"/> | <img src="media/cert_metrix.jpg" width="250"/> |
-| Makers Arena Hackathon | Coprotect Venture Internship | Metrix Automations Internship |
+| Certificate | Issuer |
+|-------------|--------|
+| 🤖 Autonomous Mobile Robots (AMR) Mastery | ROS2, Nav2, Robot Kinematics |
+| 🔬 Advanced IoT with Humanoid Robotics | IIT Hyderabad |
+| 🏭 Computer Integrated Manufacturing | NPTEL |
+| 🐍 Programming for Everybody (Python) | University of Michigan — Coursera |
+| 📊 Image Processing Onramp | MATLAB & Simulink |
+| 📐 MATLAB Certification | MathWorks |
 
 📁 [View All Certificates](https://drive.google.com/drive/folders/1BmPbk2vQ8iJLCgqEMnL13gnApak8EcCf?usp=drive_link)
 
